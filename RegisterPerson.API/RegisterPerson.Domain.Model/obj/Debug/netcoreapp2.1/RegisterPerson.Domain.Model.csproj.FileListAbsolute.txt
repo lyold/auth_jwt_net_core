@@ -1,0 +1,9 @@
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.deps.json
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.csprojAssemblyReference.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.AssemblyInfo.cs
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb

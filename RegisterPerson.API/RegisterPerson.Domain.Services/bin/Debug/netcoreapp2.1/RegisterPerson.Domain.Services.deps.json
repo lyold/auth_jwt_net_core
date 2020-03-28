@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "RegisterPerson.Domain.Services/1.0.0": {
+        "dependencies": {
+          "RegisterPerson.DataAccess.Abstract": "1.0.0",
+          "RegisterPerson.Domain.Model": "1.0.0"
+        },
+        "runtime": {
+          "RegisterPerson.Domain.Services.dll": {}
+        }
+      },
+      "RegisterPerson.DataAccess.Abstract/1.0.0": {
+        "dependencies": {
+          "RegisterPerson.Domain.Model": "1.0.0"
+        },
+        "runtime": {
+          "RegisterPerson.DataAccess.Abstract.dll": {}
+        }
+      },
+      "RegisterPerson.Domain.Model/1.0.0": {
+        "runtime": {
+          "RegisterPerson.Domain.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RegisterPerson.Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RegisterPerson.DataAccess.Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RegisterPerson.Domain.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
