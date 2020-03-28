@@ -1,0 +1,3 @@
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.AssemblyInfo.cs

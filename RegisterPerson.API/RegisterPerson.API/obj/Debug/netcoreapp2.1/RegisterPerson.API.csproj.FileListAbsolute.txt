@@ -1,0 +1,4 @@
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.API\obj\Debug\netcoreapp2.1\RegisterPerson.API.csprojAssemblyReference.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.API\obj\Debug\netcoreapp2.1\RegisterPerson.API.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.API\obj\Debug\netcoreapp2.1\RegisterPerson.API.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.API\obj\Debug\netcoreapp2.1\RegisterPerson.API.AssemblyInfo.cs

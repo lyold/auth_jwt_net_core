@@ -5,15 +5,6 @@ using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-<<<<<<< HEAD
-using RegisterPerson.API.Services.Context.Implementation;
-using RegisterPerson.DataAccess.Abstract.Entities;
-using RegisterPerson.DataAccess.SqlServer.Context;
-using RegisterPerson.Domain.Services.Implementation;
-using RegisterPerson.Domain.Services.Interfaces;
-
-namespace RegisterPerson.API
-=======
 using AuthJWT.API.Services.Context.Implementation;
 using AuthJWT.DataAccess.Abstract.Entities;
 using AuthJWT.DataAccess.SqlServer.Context;
@@ -26,7 +17,6 @@ using System;
 using Microsoft.AspNetCore.Authorization;
 
 namespace AuthJWT.API
->>>>>>> master
 {
     public class Startup
     {
@@ -48,14 +38,7 @@ namespace AuthJWT.API
             services.AddDbContext<SQLServerContext>(options => options.UseSqlServer(connection));
 
             #endregion
-
-<<<<<<< HEAD
-            #region  Registra as dependências
-
-            services.AddScoped<IPersonService, PersonService>();
-            services.AddScoped<IPersonServiceSqlServer, PersonServiceSqlServer>();
             
-=======
             #region  Registra as dependências da camada de serviços
 
             services.AddScoped<IUserService, UserService>();
@@ -66,7 +49,6 @@ namespace AuthJWT.API
 
             services.AddScoped<IUserServiceSqlServer, UserServiceSqlServer>();
 
->>>>>>> master
             #endregion
 
             #region Registra o Swagger
@@ -75,13 +57,10 @@ namespace AuthJWT.API
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "RestFul API with .NET Core 2.0",
+                    Title = "Serviço de Autenticação JWT .Net Core",
                     Version = "v1"
                 });
-<<<<<<< HEAD
             });              
-=======
-            });
 
             #endregion
 
@@ -120,7 +99,6 @@ namespace AuthJWT.API
                     .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
                     .RequireAuthenticatedUser().Build());
             });
->>>>>>> master
 
             #endregion
         }
@@ -150,13 +128,9 @@ namespace AuthJWT.API
             app.UseRewriter(option);
 
             #endregion
-<<<<<<< HEAD
-            
-=======
 
             #region Configurações Gerais
-
->>>>>>> master
+            
             app.UseHttpsRedirection();
             app.UseMvc(routes=> 
             {
@@ -165,13 +139,8 @@ namespace AuthJWT.API
                         template: "{controllern=Values}/{id?}"
                     );
             });
-<<<<<<< HEAD
-            
-=======
 
             #endregion
-
->>>>>>> master
 
         }
     }

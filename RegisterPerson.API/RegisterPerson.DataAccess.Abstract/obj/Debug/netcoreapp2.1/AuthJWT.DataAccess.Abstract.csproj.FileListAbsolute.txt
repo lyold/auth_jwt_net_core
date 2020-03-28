@@ -1,0 +1,12 @@
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.deps.json
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.dll
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.pdb
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\AuthJWT.Domain.Model.dll
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\AuthJWT.Domain.Model.pdb
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.csprojAssemblyReference.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.AssemblyInfo.cs
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.csproj.CopyComplete
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.dll
+C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\AuthJWT.DataAccess.Abstract.pdb
