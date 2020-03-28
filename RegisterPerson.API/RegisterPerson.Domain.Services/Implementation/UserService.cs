@@ -68,33 +68,33 @@ namespace AuthJWT.Domain.Services.Implementation
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
                         new Claim(JwtRegisteredClaimNames.UniqueName, user.Login)
                     });
-
-                ResultAutenticate result = new ResultAutenticate(true, user, _tokenConfiguration.TimeSession);
-
+                
                 var handler = new JwtSecurityTokenHandler();
-                string token = CreateToken(identity, result, handler);
 
-                return result;
+                return CreateToken(identity, handler, user);
             }
 
-            return new ResultAutenticate(false, user, _tokenConfiguration.TimeSession);
+            return new ResultAutenticate(false);
         }
 
-        private string CreateToken(ClaimsIdentity identity, ResultAutenticate result, JwtSecurityTokenHandler handler)
+        private ResultAutenticate CreateToken(ClaimsIdentity identity, JwtSecurityTokenHandler handler, Users user)
         {
+            DateTime DateCreated = DateTime.Now;
+            DateTime DateExpired = DateCreated + TimeSpan.FromSeconds(_tokenConfiguration.TimeSession);
+
             var securityToken = handler.CreateToken(new Microsoft.IdentityModel.Tokens.SecurityTokenDescriptor()
             {
                 Issuer = _tokenConfiguration.Issuer,
                 Audience = _tokenConfiguration.Audience,
                 SigningCredentials = _signConfiguration.Credentials,
                 Subject = identity,
-                NotBefore = result.DateCreated,
-                Expires = result.DateExpiration
+                NotBefore = DateCreated,
+                Expires = DateExpired
             });
-
+            
             var token = handler.WriteToken(securityToken);
 
-            return token;
+            return new ResultAutenticate(true, user, DateCreated, DateExpired, token);
         }
 
         public void Loggout(Users person)

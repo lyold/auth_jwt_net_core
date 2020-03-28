@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using AuthJWT.Domain.Services.Interfaces;
 using AuthJWT.Domain.Model.Entities;
 using Microsoft.AspNetCore.Authorization;
+using Tapioca.HATEOAS;
 
 namespace AuthJWT.API.Controllers
 {
@@ -19,6 +20,7 @@ namespace AuthJWT.API.Controllers
         }
 
         [HttpGet]
+        [TypeFilter(typeof(HyperMediaFilter))]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -30,7 +32,8 @@ namespace AuthJWT.API.Controllers
         }
 
         [HttpGet("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<Users>))]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -48,7 +51,8 @@ namespace AuthJWT.API.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status201Created)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Users))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize("Bearer")]
@@ -64,7 +68,8 @@ namespace AuthJWT.API.Controllers
         }
         
         [HttpPut("{id}")]
-        [ProducesResponseType(StatusCodes.Status202Accepted)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        [ProducesResponseType(StatusCodes.Status202Accepted, Type = typeof(Users))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize("Bearer")]
@@ -81,6 +86,7 @@ namespace AuthJWT.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [TypeFilter(typeof(HyperMediaFilter))]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]

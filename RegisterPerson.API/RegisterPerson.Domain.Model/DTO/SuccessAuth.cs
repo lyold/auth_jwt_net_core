@@ -14,14 +14,20 @@ namespace AuthJWT.Domain.Model.DTO
 
         public DateTime DateExpiration { get; }
 
-        public string ResultMessage { get; set; }
+        public string Token { get; }
 
-        public ResultAutenticate(bool autenticated, Users user, double timeSession)
+        public ResultAutenticate(bool autenticated)
+        {
+            Autenticated = autenticated;
+        }
+
+        public ResultAutenticate(bool autenticated, Users user, DateTime dateCreated, DateTime dateExpiration, string token)
         {
             Autenticated = autenticated;
             User = user;
-            DateCreated = DateTime.Now;
-            DateExpiration = DateCreated + TimeSpan.FromSeconds(timeSession);
+            DateCreated = dateCreated;
+            DateExpiration = dateExpiration;
+            Token = token;
         }
     }
 }

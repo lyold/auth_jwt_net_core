@@ -15,6 +15,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System;
 using Microsoft.AspNetCore.Authorization;
+using Tapioca.HATEOAS;
+using AuthJWT.Domain.Model.Entities;
 
 namespace AuthJWT.API
 {
@@ -77,6 +79,15 @@ namespace AuthJWT.API
 
             #endregion
 
+            #region Registra os links Hypermedia (HATEOAS)
+
+            var filterOptions = new HyperMediaFilterOptions();
+            filterOptions.ObjectContentResponseEnricherList.Add(new UsersEnricher());
+
+            services.AddSingleton(filterOptions);
+
+            #endregion
+
             #region  Registra as dependências da camada de serviços
 
             services.AddScoped<IUserService, UserService>();
@@ -136,9 +147,10 @@ namespace AuthJWT.API
             app.UseMvc(routes=> 
             {
                 routes.MapRoute(
-                        name: "Default API",
+                        name: "DefaultAPI",
                         template: "{controllern=Values}/{id?}"
                     );
+
             });
 
             #endregion
