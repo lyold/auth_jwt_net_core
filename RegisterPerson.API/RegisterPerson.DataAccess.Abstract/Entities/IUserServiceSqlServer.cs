@@ -6,18 +6,18 @@ namespace AuthJWT.DataAccess.Abstract.Entities
 {
     public interface IUserServiceSqlServer
     {
-        
-        User Create(User person);
 
-        User Update(User person);
+        Users Create(Users user);
+
+        Users Update(Users user);
 
         void Delete(int id);
 
-        User Find(int id);
+        Users Find(int id);
 
-        User FindByLogin(string login, string accessKey);
+        Users FindByLogin(string login, string accessKey);
 
-        IEnumerable<User> FindAll();
+        IEnumerable<Users> FindAll();
         
     }
 }

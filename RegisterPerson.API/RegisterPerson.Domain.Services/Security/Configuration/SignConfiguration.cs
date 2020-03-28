@@ -4,13 +4,13 @@ using System.Security.Cryptography;
 
 namespace AuthJWT.Domain.Services.Security
 {
-    public class SignConfigurationcs
+    public class SignConfiguration
     {
         public SecurityKey Key { get; }
 
         public SigningCredentials Credentials { get; }
 
-        public SignConfigurationcs()
+        public SignConfiguration()
         {
             using (var provider = new RSACryptoServiceProvider(2048))
             {

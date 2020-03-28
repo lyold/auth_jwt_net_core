@@ -17,11 +17,11 @@ namespace AuthJWT.API.Services.Context.Implementation
             this._context = context;
         }
 
-        public User Create(User person)
+        public Users Create(Users user)
         {
             try
             {
-                _context.Add(person);
+                _context.Add(user);
                 _context.SaveChanges();
 
 
@@ -30,14 +30,14 @@ namespace AuthJWT.API.Services.Context.Implementation
                 throw e;
             }
 
-            return person;
+            return user;
         }
 
         public void Delete(int id)
         {
             try
             {
-                User person = Find(id);
+                Users person = Find(id);
 
                 _context.Remove(person);
                 _context.SaveChanges();
@@ -48,24 +48,24 @@ namespace AuthJWT.API.Services.Context.Implementation
             }
         }
 
-        public User Find(int id)
+        public Users Find(int id)
         {
-            return _context.User.Where(x=>x.Id == id).FirstOrDefault();
+            return _context.Users.Where(x=>x.Id == id).FirstOrDefault();
         }
 
-        public IEnumerable<User> FindAll()
+        public IEnumerable<Users> FindAll()
         {
-            return _context.User.ToList(); 
+            return _context.Users.ToList(); 
         }
 
-        public User FindByLogin(string login, string accessKey)
+        public Users FindByLogin(string login, string accessKey)
         {
-            return _context.User.Where(x => x.Login == login && x.AccessKey == accessKey).FirstOrDefault();
+            return _context.Users.Where(x => x.Login == login && x.AccessKey == accessKey).FirstOrDefault();
         }
 
-        public User Update(User user)
+        public Users Update(Users user)
         {
-            User oldUser = Find(user.Id.GetValueOrDefault());
+            Users oldUser = Find(user.Id.GetValueOrDefault());
 
             try
             {

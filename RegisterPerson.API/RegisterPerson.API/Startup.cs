@@ -38,44 +38,19 @@ namespace AuthJWT.API
             services.AddDbContext<SQLServerContext>(options => options.UseSqlServer(connection));
 
             #endregion
-            
-            #region  Registra as dependências da camada de serviços
-
-            services.AddScoped<IUserService, UserService>();
-
-            #endregion
-
-            #region  Registra as dependências da camada de dados
-
-            services.AddScoped<IUserServiceSqlServer, UserServiceSqlServer>();
-
-            #endregion
-
-            #region Registra o Swagger
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-                {
-                    Title = "Serviço de Autenticação JWT .Net Core",
-                    Version = "v1"
-                });
-            });              
-
-            #endregion
 
             #region Registra o modelo de autenticação via JWT
 
-            var signConfiguration = new SignConfigurationcs();
+            var signConfiguration = new SignConfiguration();
             services.AddSingleton(signConfiguration);
-            
-            var tokenConfiguration = new TokenConfigurationcs();
-            
-            new ConfigureFromConfigurationOptions<TokenConfigurationcs>(
+
+            var tokenConfiguration = new TokenConfiguration();
+
+            new ConfigureFromConfigurationOptions<TokenConfiguration>(
                     Configuration.GetSection("TokenConfigurations")
                 ).Configure(tokenConfiguration);
 
-            services.AddSingleton(signConfiguration);
+            services.AddSingleton(tokenConfiguration);
 
             services.AddAuthentication(authOptions =>
             {
@@ -101,6 +76,32 @@ namespace AuthJWT.API
             });
 
             #endregion
+
+            #region  Registra as dependências da camada de serviços
+
+            services.AddScoped<IUserService, UserService>();
+
+            #endregion
+
+            #region  Registra as dependências da camada de dados
+
+            services.AddScoped<IUserServiceSqlServer, UserServiceSqlServer>();
+
+            #endregion
+
+            #region Registra o Swagger
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Serviço de Autenticação JWT .Net Core",
+                    Version = "v1"
+                });
+            });              
+
+            #endregion
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

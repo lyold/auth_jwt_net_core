@@ -1,7 +1,7 @@
 ﻿
 namespace AuthJWT.Domain.Model.Entities
 {
-    public class User
+    public class Users
     {
         public int? Id { get; set; }
 

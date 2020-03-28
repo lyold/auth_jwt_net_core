@@ -6,7 +6,7 @@ namespace AuthJWT.DataAccess.SqlServer.Context
 {
     public class SQLServerContext : DbContext
     {
-        public DbSet<User> User { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         public SQLServerContext(DbContextOptions<SQLServerContext> options) : base(options)
         {

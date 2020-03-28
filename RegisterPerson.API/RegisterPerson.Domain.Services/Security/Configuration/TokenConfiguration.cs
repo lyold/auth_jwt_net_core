@@ -1,7 +1,7 @@
 ﻿
 namespace AuthJWT.Domain.Services.Security
 {
-    public class TokenConfigurationcs
+    public class TokenConfiguration
     {
         public string Audience { get; set; }
 

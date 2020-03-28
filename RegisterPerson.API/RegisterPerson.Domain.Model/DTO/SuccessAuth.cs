@@ -8,7 +8,7 @@ namespace AuthJWT.Domain.Model.DTO
     {
         public bool Autenticated { get; }
         
-        public User User { get; }
+        public Users User { get; }
 
         public DateTime DateCreated { get; }
 
@@ -16,7 +16,7 @@ namespace AuthJWT.Domain.Model.DTO
 
         public string ResultMessage { get; set; }
 
-        public ResultAutenticate(bool autenticated, User user, double timeSession)
+        public ResultAutenticate(bool autenticated, Users user, double timeSession)
         {
             Autenticated = autenticated;
             User = user;

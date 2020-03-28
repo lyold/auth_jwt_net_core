@@ -18,7 +18,7 @@ namespace AuthJWT.API.Controllers
         
         [AllowAnonymous]
         [HttpPost]
-        public object Post([FromBody]User user)
+        public object Post([FromBody]Users user)
         {
             try
             {

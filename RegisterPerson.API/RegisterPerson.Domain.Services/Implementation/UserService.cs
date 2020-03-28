@@ -16,18 +16,18 @@ namespace AuthJWT.Domain.Services.Implementation
     {
         private IUserServiceSqlServer _userServiceSqlServer;
         
-        private SignConfigurationcs _signConfiguration;
+        private SignConfiguration _signConfiguration;
         
-        private TokenConfigurationcs _tokenConfiguration;
+        private TokenConfiguration _tokenConfiguration;
 
-        public UserService(IUserServiceSqlServer userServiceSqlServer, SignConfigurationcs signConfiguration, TokenConfigurationcs tokenConfiguration)
+        public UserService(IUserServiceSqlServer userServiceSqlServer, SignConfiguration signConfiguration, TokenConfiguration tokenConfiguration)
         {
             _userServiceSqlServer = userServiceSqlServer;
             _signConfiguration = signConfiguration;
             _tokenConfiguration = tokenConfiguration;
         }
         
-        public User Create(User user)
+        public Users Create(Users user)
         {
             return _userServiceSqlServer.Create(user);
         }
@@ -37,29 +37,29 @@ namespace AuthJWT.Domain.Services.Implementation
             _userServiceSqlServer.Delete(id);
         }
 
-        public User Find(int id)
+        public Users Find(int id)
         {
             return _userServiceSqlServer.Find(id);
         }
 
-        public User Update(User user)
+        public Users Update(Users user)
         {
             return _userServiceSqlServer.Update(user);
         }
 
-        public List<User> FindAll()
+        public List<Users> FindAll()
         {
             var list = _userServiceSqlServer.FindAll();
 
             if (list != null)
                 return list.ToList();
 
-            return new List<User>();
+            return new List<Users>();
         }
         
-        public ResultAutenticate Authenticate(User u)
+        public ResultAutenticate Authenticate(Users u)
         {
-            User user = _userServiceSqlServer.FindByLogin(u.Login, u.AccessKey);
+            Users user = _userServiceSqlServer.FindByLogin(u.Login, u.AccessKey);
 
             if(user != null)
             {
@@ -97,7 +97,7 @@ namespace AuthJWT.Domain.Services.Implementation
             return token;
         }
 
-        public void Loggout(User person)
+        public void Loggout(Users person)
         {
             //TODO: Implementar loggof
         }

@@ -7,18 +7,18 @@ namespace AuthJWT.Domain.Services.Interfaces
 { 
     public interface IUserService
     {
-        ResultAutenticate Authenticate(User user);
+        ResultAutenticate Authenticate(Users user);
 
-        void Loggout(User person);
+        void Loggout(Users person);
 
-        User Create(User person);
+        Users Create(Users person);
 
-        User Update(User person);
+        Users Update(Users person);
 
         void Delete(int id);
 
-        User Find(int id);
+        Users Find(int id);
         
-        List<User> FindAll();
+        List<Users> FindAll();
     }
 }

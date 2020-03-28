@@ -52,7 +52,7 @@ namespace AuthJWT.API.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize("Bearer")]
-        public ActionResult Post([FromBody]User user)
+        public ActionResult Post([FromBody]Users user)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace AuthJWT.API.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize("Bearer")]
-        public ActionResult Put([FromBody]User user)
+        public ActionResult Put([FromBody]Users user)
         {
             try
             {
