@@ -1,9 +1,0 @@
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.deps.json
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.csprojAssemblyReference.cache
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.csproj.CoreCompileInputs.cache
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.AssemblyInfoInputs.cache
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.AssemblyInfo.cs
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
-C:\Estudos\Projetos\auth_jwt_net_core\RegisterPerson.API\RegisterPerson.Domain.Model\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb
