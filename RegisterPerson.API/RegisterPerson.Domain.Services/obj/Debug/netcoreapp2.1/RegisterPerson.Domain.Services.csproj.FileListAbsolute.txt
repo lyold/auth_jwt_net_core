@@ -1,0 +1,14 @@
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.deps.json
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.csprojAssemblyReference.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.AssemblyInfo.cs
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.csproj.CopyComplete
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.Domain.Services\obj\Debug\netcoreapp2.1\RegisterPerson.Domain.Services.pdb

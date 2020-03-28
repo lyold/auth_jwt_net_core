@@ -1,0 +1,12 @@
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.deps.json
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\bin\Debug\netcoreapp2.1\RegisterPerson.Domain.Model.pdb
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.csprojAssemblyReference.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.csproj.CoreCompileInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.AssemblyInfoInputs.cache
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.AssemblyInfo.cs
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.csproj.CopyComplete
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.dll
+C:\Estudos\Projetos\rest_person\RegisterPerson.API\RegisterPerson.DataAccess.Abstract\obj\Debug\netcoreapp2.1\RegisterPerson.DataAccess.Abstract.pdb
