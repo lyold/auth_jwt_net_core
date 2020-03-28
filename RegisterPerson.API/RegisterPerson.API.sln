@@ -5,13 +5,23 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterPerson.API", "RegisterPerson.API\RegisterPerson.API.csproj", "{3738D2F5-1725-4893-B6F5-E9236DBC4964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterPerson.Domain.Model", "RegisterPerson.Domain.Model\RegisterPerson.Domain.Model.csproj", "{DD28A83D-20B4-4B95-8DDB-8B3902A2B616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterPerson.Domain.Model", "RegisterPerson.Domain.Model\RegisterPerson.Domain.Model.csproj", "{DD28A83D-20B4-4B95-8DDB-8B3902A2B616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterPerson.Domain.Services", "RegisterPerson.Domain.Services\RegisterPerson.Domain.Services.csproj", "{97F8C9C7-7D4F-4E0B-8364-F8A1B30CAB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterPerson.Domain.Services", "RegisterPerson.Domain.Services\RegisterPerson.Domain.Services.csproj", "{97F8C9C7-7D4F-4E0B-8364-F8A1B30CAB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterPerson.DataAccess.Abstract", "RegisterPerson.DataAccess.Abstract\RegisterPerson.DataAccess.Abstract.csproj", "{91A01C85-8F2C-49A0-8E8C-33B3D2C1E88B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterPerson.DataAccess.Abstract", "RegisterPerson.DataAccess.Abstract\RegisterPerson.DataAccess.Abstract.csproj", "{91A01C85-8F2C-49A0-8E8C-33B3D2C1E88B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterPerson.DataAccess.SqlServer", "RegisterPerson.DataAccess.SqlServer\RegisterPerson.DataAccess.SqlServer.csproj", "{077CA83C-6BBD-4B5D-9157-3038A5BC58C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterPerson.DataAccess.SqlServer", "RegisterPerson.DataAccess.SqlServer\RegisterPerson.DataAccess.SqlServer.csproj", "{077CA83C-6BBD-4B5D-9157-3038A5BC58C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthJWT.API", "RegisterPerson.API\AuthJWT.API.csproj", "{71B126F0-5D60-437A-9F49-183450E97697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthJWT.Domain.Model", "RegisterPerson.Domain.Model\AuthJWT.Domain.Model.csproj", "{C9522460-B04A-48A2-A1CF-43A0D8F4594B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthJWT.Domain.Services", "RegisterPerson.Domain.Services\AuthJWT.Domain.Services.csproj", "{54AF36C8-9482-45B0-AEE8-4500A9E94B13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthJWT.DataAccess.Abstract", "RegisterPerson.DataAccess.Abstract\AuthJWT.DataAccess.Abstract.csproj", "{C0E86217-5D66-40F9-A8EF-70E317EF3BA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthJWT.DataAccess.SqlServer", "RegisterPerson.DataAccess.SqlServer\AuthJWT.DataAccess.SqlServer.csproj", "{7A8CFB36-25EF-4A9D-9044-3928FEDA3254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{077CA83C-6BBD-4B5D-9157-3038A5BC58C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077CA83C-6BBD-4B5D-9157-3038A5BC58C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077CA83C-6BBD-4B5D-9157-3038A5BC58C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B126F0-5D60-437A-9F49-183450E97697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B126F0-5D60-437A-9F49-183450E97697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B126F0-5D60-437A-9F49-183450E97697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B126F0-5D60-437A-9F49-183450E97697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9522460-B04A-48A2-A1CF-43A0D8F4594B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9522460-B04A-48A2-A1CF-43A0D8F4594B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9522460-B04A-48A2-A1CF-43A0D8F4594B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9522460-B04A-48A2-A1CF-43A0D8F4594B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AF36C8-9482-45B0-AEE8-4500A9E94B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AF36C8-9482-45B0-AEE8-4500A9E94B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AF36C8-9482-45B0-AEE8-4500A9E94B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AF36C8-9482-45B0-AEE8-4500A9E94B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E86217-5D66-40F9-A8EF-70E317EF3BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E86217-5D66-40F9-A8EF-70E317EF3BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E86217-5D66-40F9-A8EF-70E317EF3BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E86217-5D66-40F9-A8EF-70E317EF3BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8CFB36-25EF-4A9D-9044-3928FEDA3254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8CFB36-25EF-4A9D-9044-3928FEDA3254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8CFB36-25EF-4A9D-9044-3928FEDA3254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8CFB36-25EF-4A9D-9044-3928FEDA3254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
+<<<<<<< HEAD
 namespace RegisterPerson.API
+=======
+namespace AuthJWT.API
+>>>>>>> master
 {
     public class Program
     {
